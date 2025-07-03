@@ -221,7 +221,7 @@ function onMouseDown(event) {
                         planetViewed = 1;
                         TweenMax.from($('#content'), 0.5, {
                             css: {
-                                left: '-500px'
+                                left: '20vw'
                             },
                             delay:0.5,
                             ease: Quad.easeInOut
@@ -243,7 +243,7 @@ function onMouseDown(event) {
                         planetViewed = 1;
                         TweenMax.from($('#content'), 0.5, {
                             css: {
-                                left: '-500px'
+                                left: '20vw'
                             },
                             ease: Quad.easeInOut
                         });
@@ -277,7 +277,7 @@ function onMouseDown(event) {
                      
                         TweenMax.from($('#content'), 0.5, {
                             css: {
-                                left: '-500px'
+                                left: '20vw'
                             },
                             ease: Quad.easeInOut
                         });
@@ -308,7 +308,7 @@ function onMouseDown(event) {
 
                         TweenMax.from($('#content'), 0.5, {
                             css: {
-                                left: '-500px'
+                                left: '20vw'
                             },
                             ease: Quad.easeInOut
                         });
@@ -338,7 +338,7 @@ function onMouseDown(event) {
 
                         TweenMax.from($('#content'), 0.5, {
                             css: {
-                                left: '-500px'
+                                left: '20vw'
                             },
                             ease: Quad.easeInOut
                         });

@@ -14,12 +14,12 @@ body {
   color: #000;
   font-family: Raleway;
   font-weight: 100;
-  font-size: 15px;
+  font-size: clamp(14px, 2vw, 18px);
   font-weight: bold;
   height: 100%;
   width: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 #content {
   position: absolute;
@@ -121,8 +121,6 @@ body #container #content #description a:hover {
   line-height: 11px;
   font-weight: 500;
 }
-
-
 
  #social{
   display: flex;
